@@ -1,0 +1,43 @@
+.card-left {
+    width: 30%;
+    height: 100%;
+}
+
+.mensagem {
+    width: 70%;
+}
+
+.mensagem-header {
+    width: 100%;
+}
+
+.mensagem-body {
+    text-align: justify;
+}
+
+.card-info {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    .body-skatePark {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sticky-top {
+        position: relative;
+    }
+
+    .card-left {
+        width: 100%;
+    }
+    
+    .mensagem {
+        width: 100%;
+        margin: 15px 0 !important;
+    }
+}
