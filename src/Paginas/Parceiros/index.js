@@ -1,10 +1,9 @@
 import React from "react";
 import Helmet from 'react-helmet';
-import { Link } from "react-router-dom";
 import Centauro from "../../Assets/imagens/parceiros/centauro.png";
-import SkateDosSonhos from "../../Assets/imagens/parceiros/skatedossonhos.png"
-import Nike from "../../Assets/imagens/parceiros/nike.png"
-import RedbullSkate from "../../Assets/imagens/parceiros/redbull-skate-generation.png"
+import SkateDosSonhos from "../../Assets/imagens/parceiros/skatedossonhos.png";
+import Nike from "../../Assets/imagens/parceiros/nike.png";
+import RedbullSkate from "../../Assets/imagens/parceiros/redbull-skate-generation.png";
 import Cabecalho from "../../componentes/Cabecalho";
 import Rodape from "../../componentes/Rodape";
 import "./estiloParceiros.css";
@@ -221,17 +220,8 @@ function Parceiros() {
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-                <div class="d-grid gap-2">
-                    <button class="btn btn-dark" type="button"><Link to="/" className="link-bnt">Voltar para pagina Inicial</Link></button>
-                </div>
-
             </div>
-
-
-
             <Rodape />
         </>
     );

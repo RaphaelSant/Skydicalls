@@ -1,0 +1,39 @@
+.imgHomeCarousel {
+    height: calc(100vh - 56px);
+    object-fit: cover;
+    background-color: grey;
+}
+
+.muralImg {
+    width: 600px;
+}
+
+.mural {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media (max-width: 812px) {
+    .mural {
+        flex-direction: column;
+    }
+    .muralImg {
+        width: 100%;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+}
