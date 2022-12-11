@@ -34,7 +34,7 @@ function ParqueCircuito() {
                     </div>
 
                     <div className="mensagem">
-                        <article className="ms-3">
+                        <article className="">
                             <div className="mensagem-header bg-dark text-light text-center p-2 rounded">
                                 <p className="m-0">Sobre o local</p>
                             </div>
@@ -43,7 +43,7 @@ function ParqueCircuito() {
                             </div>
                         </article>
 
-                        <article className="ms-3">
+                        <article className="">
                             <div className="mensagem-header bg-dark text-light text-center p-2 rounded">
                                 <p className="m-0">Atrações no Parque Circuito</p>
                             </div>

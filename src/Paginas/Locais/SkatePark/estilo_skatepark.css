@@ -20,6 +20,10 @@
     height: 100%;
 }
 
+article {
+    margin-left: 10px;
+}
+
 @media (max-width: 991px) {
     .body-skatePark {
         display: flex;
@@ -30,6 +34,9 @@
 
     .sticky-top {
         position: relative;
+    }
+    article {
+        margin-left: 0px;
     }
 
     .card-left {

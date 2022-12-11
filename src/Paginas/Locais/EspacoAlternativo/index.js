@@ -37,7 +37,7 @@ function SkatePark() {
                     </div>
 
                     <div className="mensagem">
-                        <article className="ms-3">
+                        <article className="">
                             <div className="mensagem-header bg-dark text-light text-center p-2 rounded">
                                 <p className="m-0">Sobre o local</p>
                             </div>
@@ -46,7 +46,7 @@ function SkatePark() {
                             </div>
                         </article>
 
-                        <article className="ms-3">
+                        <article className="">
                             <div className="mensagem-header bg-dark text-light text-center p-2 rounded">
                                 <p className="m-0">Atrações no Espaço Alternativo</p>
                             </div>
