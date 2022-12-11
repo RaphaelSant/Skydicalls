@@ -7,6 +7,8 @@ import Contato from "../../Paginas/Contato/index.js";
 import SkatePark from "../../Paginas/Locais/SkatePark/index.js";
 import EspacoAlternativo from "../../Paginas/Locais/EspacoAlternativo/index.js";
 import ParqueCircuito from "../../Paginas/Locais/ParqueCircuito/index.js";
+import Mural from "../../Paginas/Mural/index.js";
+import AstroSkydicallsEvent from "../../Paginas/Mural/AstroSkydicallsEvent/index.js";
 
 function Rotas() {
     return (
@@ -18,6 +20,9 @@ function Rotas() {
                 <Route exact path='/skatepark' element={<SkatePark />} />
                 <Route exact path='/espacoalternativo' element={<EspacoAlternativo />} />
                 <Route exact path='/parquecircuito' element={<ParqueCircuito />} />
+                <Route exact path='/mural' element={<Mural />} />
+                
+                <Route exact path='/mural/AstroSkydicallsEvent' element={<AstroSkydicallsEvent />} />                
             </Routes>
         </BrowserRouter>
     );

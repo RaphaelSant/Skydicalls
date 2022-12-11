@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./estiloCabecalho.css";
+import Sky from "../../Assets/imagens/Imagem_trabalho.jpg";
 
 function Cabecalho() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <Link class="navbar-brand" href="/">Navbar</Link>
+        <Link class="navbar-brand" to="/">
+        <img src={Sky} alt="SkyDicalls" width="50" />
+        </Link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,7 +32,7 @@ function Cabecalho() {
               <a class="nav-link" href="/parceiros">Parceiros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/parceiros">Mural</a>
+              <Link class="nav-link" to="/mural">Mural</Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/contato">Contato</Link>

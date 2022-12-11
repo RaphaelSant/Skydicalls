@@ -26,6 +26,14 @@
     opacity: 1;
 }
 
+.carousel-caption > h5 {
+    font-size: 50px;
+}
+.carousel-caption > p {
+    font-size: 30px;
+}
+
+
 @media (max-width: 812px) {
     .mural {
         flex-direction: column;
